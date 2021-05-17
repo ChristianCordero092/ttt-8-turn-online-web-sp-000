@@ -41,11 +41,7 @@ def turn(board)
    puts "Please enter 1-9:"
    index = gets.strip
    input_to_index(index)
-   # b = move(board, index, value = "X")
-  #elsif valid_move?(board, a) == false
-    #b = move(board, index, value = "X")
-    #puts display_board(b)
-  end
+   end
 end
     
   
