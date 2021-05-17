@@ -43,6 +43,7 @@ def turn(board)
    input_to_index(index)
   elsif 
     move(board, a, value = "X")
+    display_board(board)
   end
 end
     
